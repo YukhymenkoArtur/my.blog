@@ -1,0 +1,26 @@
+.splash { 
+	/* Отступ для содержимого, помещенного в splash */
+	padding:2em 0 2em;
+	/* Картинка, которая используются для splash */
+	background-image:url(P60131-045851.jpg);
+	/* Масштабируем картинку с сохранением пропорций */
+	background-size:cover;
+	/* Запрещаем фоновому изображению прокручиваться, т.е. делаем его неподвижным */
+	background-attachment:fixed;
+	/* Цвет текста */
+	color:#fff;
+	/* Выравниваем текста внутри splash по центру */
+	text-align:center;
+}
+
+body {
+	color:#fff;
+	background-image:url(P60524-203537.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
